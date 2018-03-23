@@ -1,4 +1,4 @@
-function [ r ] = bisection(f, a, b, tol, iter_max)
+function [ r ] = bisection(f, a, b, tol)
     fa = f(a);
     fb = f(b);
     
@@ -13,24 +13,24 @@ function [ r ] = bisection(f, a, b, tol, iter_max)
     end
 
     deltac = abs(b - a) / 2;
-    
-    for k = 0:iter_max
+
+      while (deltac >= tol)
         c = (a + b)/2;
         fc = f(c);
-
-        if ( deltac <= tol && abs(fc) <= tol )
-            r = c;
-            return;
-        elseif ( fc * fa < 0 )
-            b = c;
+        
+        if ( fc * fa < 0 )
+          b = c;
         else
-            a = c;
+          a = c;
         end
         
         deltac = deltac / 2;
-    end
-    
-    if deltaX > tol && abs(fx) > tol
+      end
+      
+      r = c;
+      return;
+      
+    if deltac > tol
         warning('Warning: Divergen');
     end
 end
