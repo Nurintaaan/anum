@@ -1,4 +1,4 @@
-function [ r ] = bisection(f, a, b, tol)
+function [ r ] = bisection_while(f, a, b, tol)
     fa = f(a);
     fb = f(b);
     
@@ -9,7 +9,7 @@ function [ r ] = bisection(f, a, b, tol)
       r = b;
       return;
     elseif ( fa * fb > 0 )
-      error( 'f(a)*f(b) harus negatif' );
+      r = 'f(a)*f(b) harus negatif';
     end
 
     deltac = abs(b - a) / 2;
@@ -31,6 +31,6 @@ function [ r ] = bisection(f, a, b, tol)
       return;
       
     if deltac > tol
-        warning('Warning: Divergen');
+        r = 'Divergen';
     end
 end
