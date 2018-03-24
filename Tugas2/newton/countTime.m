@@ -6,12 +6,14 @@ function countTime()
   for k= 1:length(tol)
     fprintf('============================== \n');
     fprintf('TOLERANCE = %d \n', tol(k));
-    f = @(x) x.^x - 2;
-    fder = @(x) x.^x * (1 + log(x));
+    % input from exercise
+    f = @(x) x.^2 - cos(pi * x);
+    fder = @(x)  (2*x) + (pi*sin(pi*x));
     
-    time_elapsed = 0;
+    % initial x0
+    initial = [-1,-0.5,0.3,0.5,1];
     
-    initial = [1,1.5,0.5,3,10];
+    time_elapsed= 0;
     for i = 1:length(initial)
       for j = 1:200
         tic

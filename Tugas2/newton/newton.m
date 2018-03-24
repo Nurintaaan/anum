@@ -18,8 +18,8 @@ function [x0] = newton(f,fder, x0, tol)
     x1 = x0 - (feval(f,x0)/feval(fder,x0));
     diff = abs(x1-x0);
     x0 = x1;
-    fprintf('x = %d \n', x0);
+    %fprintf('x = %d \n', x0);
   end;  
   
-  fprintf('solution x = %d with f(x) = %d \n', x0, feval(f,x0));
+  %fprintf('solution x = %d with f(x) = %d \n', x0, feval(f,x0));
 end;
