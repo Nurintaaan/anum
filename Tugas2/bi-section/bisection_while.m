@@ -9,7 +9,7 @@ function [ r ] = bisection_while(f, a, b, tol)
       r = b;
       return;
     elseif ( fa * fb > 0 )
-      r = 'f(a)*f(b) harus negatif';
+      error('f(a)*f(b) harus negatif');
     end
 
     deltac = abs(b - a) / 2;
