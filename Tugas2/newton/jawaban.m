@@ -23,7 +23,7 @@ function jawaban()
     fder = @(x) x.^x * (1 + log(x));
     
     % initial x0
-    initial = [2];
+    initial = [1,1.5,0.5,1.5,10];
     for i = 1:length(initial)
       x0 = initial(i);
       fprintf('========================================================\n');
@@ -38,7 +38,7 @@ function jawaban()
     fder = @(x) 20*exp(-x)*pi*cos(2 *pi*x)- (10*exp(-x)*sin(2*pi*x));
 
     % initial x0
-    initial = [2];
+    initial = [-1.5,-2,-0.5,0,1];
     for i = 1:length(initial)
       x0 = initial(i);
       fprintf('========================================================\n');
@@ -53,7 +53,7 @@ function jawaban()
     fder = @(x)  (4*x.^3) - (18*x.^2) + (24*x) - 10;
 
     % initial x0
-    initial = [2];
+    initial = [-10,-5,0,5,10];
     for i = 1:length(initial)
       x0 = initial(i);
       fprintf('========================================================\n');
@@ -68,7 +68,7 @@ function jawaban()
     fder = @(x)  (2*x) + (pi*sin(pi*x));
     
     % initial x0
-    initial = [2];
+    initial = [-1,-0.5,0.3,0.5,1];
     for i = 1:length(initial)
       x0 = initial(i);
       fprintf('========================================================\n');
