@@ -1,0 +1,5 @@
+PENDAHULUAN
+
+Steepest descent merupakan pembaharuan metode penyeesaian persoalan optimisasi dari metode direct line search. Dimana pada metode steepest descent ditentukan arah p = - grad(f). Karena yang dituju adalah titik minimal dari f maka arah pencarian akan mengarahkan kita pada titik terendah yang berlawanan dengan arah gradien. Pada metode steepest descent arah (a0) dapat dicari menggunakan direct line search ataupun backtracking-armijo line search.
+
+
