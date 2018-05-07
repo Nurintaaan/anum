@@ -47,5 +47,35 @@ function y = grad(B,x)
   y = B*y';
 end;
 
-function [b] = bfgs(N, X, gradToler, fxToler, DxToler, MaxIter, myFx)
-  %Edit disini
+function [B] = BFGS(B, tic, )
+   %% In BFGS, we directly derive H
+    H = B;
+    while true
+        temp_st = tic;
+        pt_set = [pt_set, pt];
+        %% Stopping criterion
+        if norm(eval(grad)) < 1.0e-3 | t_accum > t_limit
+            solution = pt;
+            break;
+        end
+        p = -H*eval(grad);
+        
+        prev_pt = pt;
+        %% Step length calculation
+        step_length = find_step_length(f, pt, grad, p);
+        pt = pt + step_length*p;
+
+        x = prev_pt(1);
+        y = prev_pt(2);
+        old_grad = eval(grad);
+        x = pt(1);
+        y = pt(2);
+        mv_grad = eval(grad);
+        
+        y_k = mv_grad - old_grad;
+        s = pt - prev_pt;
+        
+        rho = 1./(y_k'*s);
+        H = (eye(2)-rho*s*y_k')*H*(eye(2)-rho*y_k*s')+rho*s*s';
+        t_accum = t_accum + toc(temp_st);
+    end
