@@ -19,8 +19,14 @@ function [minX] =  quasiNewton(f, X, initial, tol, max_iter)
     a = directLineSearch(x, 1, p)
     x_old = x
     x = x + a*p;    
-    B = bfgs(n, X, tol, tol, tol, max_iter, f)
-  end;
+    g_new = find_grad(f, X);
+    B = bfgs(B, x - x_old, g_new - g)
+    
+    % Skip update if divisor is close to zero
+    if abs(divisor) <= 1e-8 || abs(divisor) < 0.5*norm(s)*norm((y_k - B*s))
+      B = B_old;
+    end
+  endwhile
   x, k
 
 end;
@@ -36,22 +42,13 @@ function [a] = directLineSearch(x, a, p)
   end;
 end;
 
-function y = f(x)
-  % soal 1 
-  % y = 0.5 * x(1).^2 + 2.5 * x(2).^2;
-  
-  % soal 2
-  y = (2 * pi * x(1) * (x(1)) + (x(2)) + x(3) * (pi * x(1).^2 * x(2) - 400));
-  
-end;
-
 function [g]=grad(f, X)
   n = length(X);
   g = zeros(n, 1);
   h=sqrt(eps);
-  for k=1:n
+  for k=1:length(X)
     x1=X;
     x1(k)=x1(k)+h*i;
     g(k)=imag(f(x1))/h;
   end
-end  
+end
