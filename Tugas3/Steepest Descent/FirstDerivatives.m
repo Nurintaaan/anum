@@ -1,5 +1,4 @@
 function FirstDerivX = FirstDerivatives(X, myFx)
-
 N = length(X);
 for iVar=1:N
   xt = X(iVar);
@@ -11,4 +10,3 @@ for iVar=1:N
   X(iVar) = xt;
   FirstDerivX(iVar) = (fp - fm) / 2 / h;
 end
-FirstDerivX = FirstDerivX' ;
