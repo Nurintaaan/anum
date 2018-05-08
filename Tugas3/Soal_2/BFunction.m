@@ -1,4 +1,5 @@
 function [fx, gradf] = BFunction(x)
+    warning('off', 'all');
     f = 2 * pi * x(1) * (x(1) * x(2));
     g = pi * x(1).^2 * x(2) - 400;
   

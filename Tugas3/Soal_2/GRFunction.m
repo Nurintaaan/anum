@@ -1,4 +1,5 @@
 function [fx, gradf] = GRFunction(x)
+    warning('off', 'all');
     fx = c(x);
     gradf = FirstDerivatives(x, @c);
 
