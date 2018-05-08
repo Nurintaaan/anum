@@ -1,4 +1,4 @@
-function [minX] =  steepestDescent(f, grad, initial, tol)
+function [x k] =  steepestDescent(f, grad, initial, tol)
   x = initial;
   k = 0;
   while(norm(grad(x, f), 2) > tol)
