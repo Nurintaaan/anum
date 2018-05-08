@@ -1,16 +1,14 @@
 % Broyden–Fletcher–Goldfarb–Shanno
 function B = bfgs(B, deltaX, Y)
     N = length(deltaX);
-    a = deltaX * Y';
-    b = Y' * deltaX;
-    c = Y * deltaX';
-    d = deltaX * deltaX';
+    a = Y' * B * Y;
+    b = deltaX' * Y;
+    c = deltaX * deltaX';
+    d = deltaX * Y' * B;
+    e = B * Y * deltaX';
     B_old = B;
+    
     if b > 0
-      B = (eye(N) - a/b)' * B * (eye(N) - c/b) + d/b;
-    endif;
-    % Skip update if divisor is close to zero
-    if abs(b) <= 1e-8
-      B = B_old;
+      B = B_old + (eye(N) + a/b)*(c/b) - (d + e)/b;
     endif;
 end;

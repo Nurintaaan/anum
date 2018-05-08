@@ -25,13 +25,3 @@ function minX = quasiNewton(f, initial, tol, max_iter)
   endwhile;
   minX = x
 end;
-
-function a = directLineSearch(f, x, a, p)
-  f_a = f(x + a*p);
-  alpha = 0.33;
-  direction = -0.333;
-  while norm(f_a,2) > 0.00001
-    a = a + alpha * direction;
-    f_a = f(x + a*p);
-  endwhile;
-end;
