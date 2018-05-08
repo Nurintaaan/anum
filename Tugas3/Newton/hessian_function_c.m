@@ -5,25 +5,30 @@ function [res] = hessian_function_c(x)
         changed_x = (1/sqrt(i))*sin(x(i)/sqrt(i));
         for j = 1:n
             if i == j
-                mul = (1/i)*cos(x(i)/sqrt(i));
+                mul = 1;
                 for k = 1:n
-                    if j ~= k
+                    if k == i
+                        mul = mul*(1/sqrt(k))*(1/sqrt(k))*cos(x(k)/sqrt(k));
+                    else
                         mul = mul*cos(x(k)/sqrt(k));
                     end
                 end
-                y(i,j) = 1/2000 + mul;
-            end
-            mul = 1;
-            for k = 1:n
-                if k == i
-                    mul = mul*changed_x;
-                elseif k == j
-                    mul = mul*-(1/sqrt(k))*sin(x(k)/sqrt(k))
-                else
-                    mul = mul*cos(x(k)/sqrt(k));
+                
+                r = 1/2000 + mul;
+                y(i,j) = r;
+            else
+                mul = 1;
+                for k = 1:n
+                    if k == i
+                        mul = mul*changed_x;
+                    elseif k == j
+                        mul = mul*-(1/sqrt(k))*sin(x(k)/sqrt(k));
+                    else
+                        mul = mul*cos(x(k)/sqrt(k));
+                    end
                 end
+                y(i,j) = mul;
             end
-            y(i,j) = mul;
         end
     end
     res = y;

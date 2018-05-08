@@ -1,0 +1,8 @@
+t = [1,2];
+initial = [-400, -200, 200, 400, -400, -200, 200, 400];
+for i = 1 : length(t)
+   n = t(i);
+   x = repmat(initial, 1, 8.^(n-1));
+end
+
+newton([1,1,1], @hessian_function_b, @delta_function_b, 1e-4)
