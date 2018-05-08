@@ -1,14 +1,25 @@
-function [minX] =  quasiNewton(initial, tol)
+% acuan 
+% https://github.com/yyc9268/Numerical_optimization/blob/49639aa66b0f1dd47803110ae47b1083e4217b51/matlab/multivariate_smooth/quasi_newton.m
+% modified sesuai kebutuhan soal
+
+function [minX] =  quasiNewton(f, X, initial, tol, max_iter)
   x = initial;
   k = 0;
-  [m,n] = size()
-  B = I[m,n]
-  while norm(grad(x), 2) > tol 
-    p = -grad(x,B)
-    a = directLineSearch(x, 1, p)    
-    x = x + a*p;
-    k = k + 1;
-    B = bfgs(N, x, gradToler, fxToler, DxToler, MaxIter, myFx)%cek ini far
+  n = length(X);
+  B = eye(n);
+
+  while k < max_iter
+    g = grad(f,X)
+    % Cek sudah konvergen apa belum
+    if abs(g) <= tol
+      break
+    end
+    k = k + 1
+    p = -B * g
+    a = directLineSearch(x, 1, p)
+    x_old = x
+    x = x + a*p;    
+    B = bfgs(n, X, tol, tol, tol, max_iter, f)
   end;
   x, k
 
@@ -34,18 +45,13 @@ function y = f(x)
   
 end;
 
-function y = grad(B,x)
-  %soal 1
-  % y(1) = x(1);
-  % y(2) = 5 * x(2);
-  
-  %soal 2
-  y(1) = (4 * pi * x(1)) + (2 * pi * x(2)) + (2 * x(3) * pi * x(1) * x(2));
-  y(2) = (2 * pi * x(1)) + (x(3) * pi * x(1).^2);
-  y(3) = (pi * x(1).^2 * x(2)) - 400;
-  
-  y = B*y';
-end;
-
-function [b] = bfgs(N, X, gradToler, fxToler, DxToler, MaxIter, myFx)
-  %Edit disini
+function [g]=grad(f, X)
+  n = length(X);
+  g = zeros(n, 1);
+  h=sqrt(eps);
+  for k=1:n
+    x1=X;
+    x1(k)=x1(k)+h*i;
+    g(k)=imag(f(x1))/h;
+  end
+end  
