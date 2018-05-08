@@ -1,0 +1,1075 @@
+------ FUNCTION A ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.022001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.018001 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0130009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0149999 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0140011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.020001 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.015001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.014001 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0130009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0140009 seconds.
+------ FUNCTION B ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0190011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0430021 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.023002 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0360021 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0190009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.035002 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.019001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.036002 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0190011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.037002 seconds.
+------ FUNCTION C ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.34302 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.421024 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.376021 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.429025 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.375021 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.400023 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.367021 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.398023 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.371021 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.388022 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.853049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.881051 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.847048 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.88105 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.86905 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.87405 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.853049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.87205 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.858049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.88105 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.836048 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.848049 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.870049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.817047 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.818047 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.915052 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.87005 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.779045 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.817046 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.841048 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.551032 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.500029 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.468026 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.493029 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.458026 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.478027 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.468027 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.495028 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.470027 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.449026 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.680039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.690039 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.688039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.69304 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.69104 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.696039 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.712041 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.69504 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.685039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.677039 seconds.
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> mainpoblano
+>> mainpoblano
+------ FUNCTION A ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0250019 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0180011 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.014001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0159999 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0150011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0160011 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0140011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.017001 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0160011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0220011 seconds.
+------ FUNCTION B ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.026002 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0440021 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.027002 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0630029 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0360031 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.047002 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0220009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0420031 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0270009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.042003 seconds.
+------ FUNCTION C ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.405023 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.412024 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.406023 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.460026 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.404023 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.480028 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.36002 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.408024 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.385022 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.413023 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.86705 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.941054 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.897051 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.954055 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.947054 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 1.05706 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.930053 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 1.05706 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.973055 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 1.00506 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.969055 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.909052 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.888051 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 1.06206 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 1.13207 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.934053 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 1.03306 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 1.12406 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 1.02506 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.969056 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.542031 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.507029 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.489028 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.591033 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.636037 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.70704 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.489028 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.598034 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.609035 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.484028 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.686039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.739042 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.744043 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.947054 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.87905 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.86105 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.736042 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.87005 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.832047 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.941054 seconds.
+>> mainpoblano
+------ FUNCTION A ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0460031 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.015001 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.0129999 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0140009 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.013001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.015001 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.012 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0200019 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2         5       0.00000000       0.00000000
+Elapsed time is 0.012 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3         4       0.00002036       0.00320313
+Elapsed time is 0.0140009 seconds.
+------ FUNCTION B ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0190011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0350021 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0220011 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0350021 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.019001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.0390019 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.019001 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.037002 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     2        21 -102174063482793400800379711401893833250600984248320.00000000 91992339636017408469085783659730960384.00000000
+Elapsed time is 0.0210009 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     3        61             -Inf              NaN
+Elapsed time is 0.039002 seconds.
+------ FUNCTION C ------
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.348019 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.461027 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.417024 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.390022 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.35002 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.392022 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.356021 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.388022 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        70       0.09352512       0.00000928
+Elapsed time is 0.34602 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        80       0.07633810       0.00000854
+Elapsed time is 0.396022 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 1.11106 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.999057 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.862049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.915053 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.851048 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.884051 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.850049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.87405 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    17        55       0.00000002       0.00000427
+Elapsed time is 0.848048 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+    18        57       0.00000003       0.00000761
+Elapsed time is 0.893051 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.807046 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.790046 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.814046 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.780045 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.809046 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.812046 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.844049 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.805046 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     8        25       0.00000005       0.00000434
+Elapsed time is 0.846048 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     9        24       0.00000011       0.00000647
+Elapsed time is 0.803046 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.443025 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.448026 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.475027 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.457026 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.444026 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.485028 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.446025 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.450026 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.448025 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000002
+Elapsed time is 0.449026 seconds.
+------------ Limited Memory BFGS tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.685039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 0.001 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.719042 seconds.
+------------ Limited Memory BFGS tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.694039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-005 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.686039 seconds.
+------------ Limited Memory BFGS tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.711041 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-007 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.679039 seconds.
+------------ Limited Memory BFGS tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.677039 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-009 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.680039 seconds.
+------------ Limited Memory BFGS tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.679038 seconds.
+------------ Nonlinear Conjugate Gradient tol = 1e-011 ------------
+ Iter  FuncEvals       F(X)          ||G(X)||/N        
+------ --------- ---------------- ----------------
+     1         8       0.00000000       0.00000000
+Elapsed time is 0.793046 seconds.
