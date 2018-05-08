@@ -1,4 +1,4 @@
-function [g] = grad(myFx, X)
+function g = grad(myFx, X)
   N = length(X);
   for iVar=1:N
     xt = X(iVar);
