@@ -10,7 +10,8 @@
     y = 0.5 * x(1).^2 + 2.5 * x(2).^2;  
   end;
 
-  quasiNewton(@a, initial, tol, 10);
+  minX = quasiNewton(@a, initial, tol, 10);
+  minX
 
 % b) Fungsi luas permukaan tabung dengan syarat volumenya adalah 400 satuan isi dengan tebakan awal (𝑟,𝑡, 𝜆) = (1,1, −0.5)
   
@@ -24,8 +25,8 @@
      L = f + x(3) * g;
   end;
 
-  quasiNewton(@b, initial, tol, 10);
-  
+  minX = quasiNewton(@b, initial, tol, 10);
+  minX
 % c) Griewank function
   t = [1,2,3,4,5];
   t = [1];
@@ -50,7 +51,8 @@
   
   for index = 1 : length(t)
     initial = [initial initial]
-    quasiNewton(@c, initial, tol, 10);
+    minX = quasiNewton(@c, initial, tol, 10);
+    minX
   end;
    
   
