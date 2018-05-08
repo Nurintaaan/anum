@@ -1,10 +1,10 @@
-diary('result.txt')
-diary on
+%diary('resultpoblano.txt')
+%diary on
+%to write the answer on a file
 
 function poblanoFunction(fx, x)
   tic;
   res = lbfgs(fx, x)
-  res.X
   toc;
 end
 
@@ -15,5 +15,5 @@ poblanoFunction(@AFunction, [1 2]');
 poblanoFunction(@BFunction, [1 1 -0.5]');
 
 %Function Griewank
-x = [-400 -200 200 400 -400 -200 200 400];
+x = [-400 -200 200 400];
 poblanoFunction(@GRFunction, [x]');
