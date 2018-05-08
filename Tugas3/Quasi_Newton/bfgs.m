@@ -6,9 +6,11 @@ function B = bfgs(B, deltaX, Y)
     c = Y * deltaX';
     d = deltaX * deltaX';
     B_old = B;
-    B = (eye(N) - a/b)' * B * (eye(N) - c/b) + d/b;
+    if b > 0
+      B = (eye(N) - a/b)' * B * (eye(N) - c/b) + d/b;
+    endif;
     % Skip update if divisor is close to zero
-    if abs(divisor) <= 1e-8 || abs(divisor) < 0.5*norm(s)*norm((y_k - B*s))
+    if abs(b) <= 1e-8
       B = B_old;
-    end
-end
+    endif;
+end;

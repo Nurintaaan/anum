@@ -11,8 +11,10 @@
   end;
   tic
   minX = quasiNewton(@a, initial, tol, 10);
-  minX
-  exec_time = toc;
+  minXA = minX;
+  minXA
+  exec_timeA = toc;
+  exec_timeA
 
 % b) Fungsi luas permukaan tabung dengan syarat volumenya adalah 400 satuan isi dengan tebakan awal (𝑟,𝑡, 𝜆) = (1,1, −0.5)
   
@@ -20,15 +22,17 @@
   initial = [1,1,-0.5]';  
   
   function L = b(x)
-     f = 2 * pi * x(1) * (x(1) * x(2))
-     g = pi * x(1).^2 * x(2) - 400
+     f = 2 * pi * x(1) * (x(1) * x(2));
+     g = pi * x(1).^2 * x(2) - 400;
   
      L = f + x(3) * g;
   end;
   tic
   minX = quasiNewton(@b, initial, tol, 10);
-  minX
-  exec_time = toc;
+  minXB = minX;
+  minXB
+  exec_timeB = toc;
+  exec_timeB
   
 % c) Griewank function
   t = [1,2,3,4,5];
@@ -52,12 +56,15 @@
     y = 1 + sum -  mul;
   end;
   
-  for index = 1 : length(t)
-    initial = [initial initial]
-    tic
-    minX = quasiNewton(@c, initial, tol, 10);
-    minX
-    exec_time = toc;
-  end;
+  %for index = 1 : length(t)
+   initial = [initial initial];
+   tic
+   minX = quasiNewton(@c, initial, tol, 10);
+   minXC = minX;
+   minXC
+   exec_timeC = toc;
+   exec_timeC
+  %end;
+  
    
   

@@ -9,6 +9,6 @@ function g = grad(myFx, X)
     fm = feval(myFx, X, N);
     X(iVar) = xt;
     g(iVar) = (fp - fm) / 2 / h;
-  end
-  g = g' ;
+  endfor;
+  g = g';
 end;
