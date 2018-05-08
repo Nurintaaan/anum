@@ -3,7 +3,6 @@
 %
 % a) 𝑓(𝑥, 𝑦) = 0.5𝑥^2 + 2.5𝑦^2, dengan tebakan awal (𝑥, 𝑦) = (1,2)
   arrtol = [1e-4, 1e-6, 1e-8, 1e-10, 1e-12];
-  initial = [1,2]';
   
   function y = a(x)
     y = 0.5 * x(1).^2 + 2.5 * x(2).^2;  
@@ -15,12 +14,12 @@
     y = y';
   end;
 
-  a = []; 
-  % tol,iter , time, sol
+  %a = []; 
+  %tol,iter , time, sol
   %for i = 1:length(arrtol)
     %tol = arrtol(i)
     %tic;
-      %[sol iter] = steepestDescent(@a, @grad_a, initial, tol);
+     % [sol iter] = steepestDescent(@a, @grad_a, initial, tol);
     %elapsed_time = toc;
     %a =[a; [tol iter time sol']];
   %end;
@@ -46,8 +45,8 @@
     y = y';
   end;
    
-   %b = [];
-   %for i = 1:length(arrtol)
+  %b = [];
+  %for i = 1:length(arrtol)
     %tol = arrtol(i)
     %tic;
      % [sol iter] = steepestDescent(@b, @grad_b, initial, tol);
@@ -55,10 +54,9 @@
     %b =[b; [tol iter time sol']];
   %end;
   %csvwrite("soal1b.csv",b);  
-  %steepestDescent(@b, @grad_b, initial, tol);
   
 % c) Griewank function
-  t = [1,2,3];
+  t = [1];
   a = 0; b = 1;
   initial = [-400, -200, 200, 400];
   
@@ -94,16 +92,18 @@
   end;
   
   c = [];
-  for index = 1 : length(t)
-    initial = [initial initial]
+  %for index = 1 : length(t)
+    initial = [initial initial initial initial]
    for i = 1:length(arrtol)
     tol = arrtol(i)
     tic;
-      [sol iter] = steepestDescent(@c, @grad_c, initial, tol);
+      [sol iter] = steepestDescent(@c, @grad_c, initial', tol);
     elapsed_time = toc;
-    c =[c; [index tol iter time sol']];
+    c =[c; [tol iter time sol']];
+  %end;
+  csvwrite("soal1clagi.csv",c);  
   end;
-  csvwrite("soal1c.csv",c);  
-  end;
-  %steepestDescent(@c, @grad_c, initial', tol)
+  
+  
+  
   
