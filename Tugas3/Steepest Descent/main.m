@@ -16,8 +16,7 @@
     y = y';
   end;
    
-  %steepestDescent(@a, @FirstDerivatives, initial, tol);
-  
+  steepestDescent(@a, @grad_a, initial, tol);
 
 % b) Fungsi luas permukaan tabung dengan syarat volumenya adalah 400 satuan isi dengan tebakan awal (𝑟,𝑡, 𝜆) = (1,1, −0.5)
   
@@ -53,7 +52,6 @@
     
     for i = 1:n 
       sum = sum + ((x(i).^2)/4000);
-      if(i == 0) break; end;
       mul = mul * (cos(x(i)/ sqrt(i)));
     end;
     
@@ -62,14 +60,12 @@
   
   function y = grad_c(x)
     n = length(x);
-    sum = 0;
-    mul = 1;
     for d = 1 : n
+      sum = 0;
+      mul = 1;
       for i = 1:n 
         if(i == d) 
           sum = sum + ((x(i))/2000);
-        end;
-        if(i == d) 
           mul = mul * 1/sqrt(i) * (sin(x(i)/ sqrt(i)));
         else
           mul = mul * (cos(x(i)/ sqrt(i)));
@@ -83,7 +79,5 @@
   for index = 1 : length(t)
     initial = [initial initial]
   end;
-  %FirstDerivatives(initial, @c)
-  %steepestDescent(@c, @FirstDerivatives, initial', tol)
-  %descent( initial', @c, @FirstDerivatives)
+  steepestDescent(@c, @grad_c, initial', tol)
   
