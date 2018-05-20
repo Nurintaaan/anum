@@ -12,9 +12,10 @@
   for i = 1:length(arrtol)
     tol = arrtol(i)
     tic; 
-    minX = quasiNewton(@a, initial, tol, 10);
+    [minX, k] = quasiNewton(@a, initial, tol, 10);
     minXA = minX;
     minXA
+    k
     exec_timeA = toc;
     exec_timeA
   endfor;
@@ -34,9 +35,10 @@
   for i = 1:length(arrtol)
     tol = arrtol(i)
     tic; 
-    minX = quasiNewton(@b, initial, tol, 10);
+    [minX, k] = quasiNewton(@b, initial, tol, 10);
     minXB = minX;
     minXB
+    k
     exec_timeB = toc;
     exec_timeB
   endfor;
@@ -65,8 +67,10 @@
     for i = 1:length(arrtol)
       tol = arrtol(i)
       tic;
-      minX = quasiNewton(@b, initial, tol, 10);
+      [minX, k] = quasiNewton(@b, initial, tol, 10);
       elapsed_time = toc;
       minXC = minX;
+      minXC
+      k
     endfor;
   endfor;

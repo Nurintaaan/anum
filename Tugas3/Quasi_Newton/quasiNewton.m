@@ -1,7 +1,7 @@
 % Reference : https://github.com/yyc9268/Numerical_optimization/blob/49639aa66b0f1dd47803110ae47b1083e4217b51/matlab/multivariate_smooth/quasi_newton.m
 % with some modification
 
-function minX = quasiNewton(f, initial, tol, max_iter)
+function [minX ,iter] = quasiNewton(f, initial, tol, max_iter)
   x = initial;
   k = 0;
   n = length(initial);
@@ -18,6 +18,7 @@ function minX = quasiNewton(f, initial, tol, max_iter)
     % a) Hitung p^k = -B^kg^k.
     % Return vektor p (arah pencarian)
     p = -B * g;
+    a = directLineSearch(f, x, 1, p, max_iter);
     
     % b) Hitung panjang langkah (solusi dari min f(x0 + alpha.p^k)) menggunakan line search.
     % Return alpha 
@@ -38,7 +39,8 @@ function minX = quasiNewton(f, initial, tol, max_iter)
     % Iterasi
     k++;
   endwhile;
-  minX = x
+  minX = x;
+  iter = k;
 end;
 
 % Direct Line Search
