@@ -5,7 +5,7 @@
 % source : https://gist.github.com/cmaes/1269709/c415aa18ee64d8acdfe4754c9f9b06b257424797
 % modified for this task
 
-function [C] = cubic_spline_main(sub_interval)
+function [C] = cubic_spline_main(sub_interval, f , df, i)
   
   start_interval = -4;
   end_interval = 4;
@@ -13,14 +13,10 @@ function [C] = cubic_spline_main(sub_interval)
   % divide interval into subinterval
   x = linspace(start_interval,end_interval,sub_interval+1);
   
-  % define runge function
-  runge = @(x) 10 / (1 + 25 * x.^2);
-  derif_runge = @(x) (-500 * x)/((1 + 25 * x.^2).^2);
   
   % get cooficient from hermit spline function
-  C = hermite_spline(x, runge, derif_runge);
-  
-  figure(1);
+  C = hermite_spline(x, f, df);
+  figure(i);
   hold on;
   
   xs = linspace(start_interval, end_interval, 100);
@@ -39,7 +35,7 @@ function [C] = cubic_spline_main(sub_interval)
       x_bar = (xs(i+1) + xs(i))/2;      
     endif
 
-    fx = runge(x_bar);
+    fx = f(x_bar);
     sx = [x_bar.^3; x_bar.^2; x_bar; 1]' * C(idx, :)';
     error_i = abs((fx-sx) / fx);
     max_error = max(max_error, error_i);
@@ -47,7 +43,7 @@ function [C] = cubic_spline_main(sub_interval)
 
   title("Runge Function");
   plot(xs, interpolated, 'b-');
-  plot(xs, arrayfun(runge, xs), 'r-');
+  plot(xs, arrayfun(f, xs), 'r-');
   legend('Interpolated', 'Runge Function');
   hold off;
   

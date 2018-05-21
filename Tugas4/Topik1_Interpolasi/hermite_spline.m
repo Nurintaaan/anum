@@ -15,11 +15,11 @@ function [p] = hermite_spline(x, f, df)
   
     % natural endpoint when s'(xi) = 0
     if i == 1
-      dy(1) = 0
+      dy(1) = 0;
     end;
   
     if i == n-1
-      dy(10) = 0
+      dy(10) = 0;
     end;
 
     p(i, 1:4) = hermite_interpolate(xx,y, dy);  
