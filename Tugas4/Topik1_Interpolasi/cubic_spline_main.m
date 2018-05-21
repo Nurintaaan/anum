@@ -6,7 +6,7 @@
 % modified for this task
 
 function [C] = cubic_spline_main(sub_interval, f , df, i)
-  
+  index = int2str(i);
   start_interval = -4;
   end_interval = 4;
  
@@ -16,7 +16,7 @@ function [C] = cubic_spline_main(sub_interval, f , df, i)
   
   % get cooficient from hermit spline function
   C = hermite_spline(x, f, df);
-  figure(i);
+  fig = figure(i);
   hold on;
   
   xs = linspace(start_interval, end_interval, 100);
@@ -45,6 +45,11 @@ function [C] = cubic_spline_main(sub_interval, f , df, i)
   plot(xs, interpolated, 'b-');
   plot(xs, arrayfun(f, xs), 'r-');
   legend('Interpolated', 'Runge Function');
+  
+  name = 'figure';
+  ext = '.png';
+  filename = strcat(strcat(name,index),ext)
+  saveas(fig,filename)
   hold off;
   
   disp('Cubic spline cooficient'), disp(C)
